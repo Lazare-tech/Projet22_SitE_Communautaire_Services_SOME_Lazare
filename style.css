@@ -70,9 +70,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 9.6rem;
+    height: 3rem;
     padding: 0 4.8rem;
     position: relative;
+    background-color: #563d7c;
+
     /* background: rgba(36, 15, 15, 0.945); */
 }
 
@@ -92,6 +94,7 @@
     font-size: 1.3rem;
     text-decoration: none;
     /* color: white; */
+    color: white;
 }
 
 /* flex-item left party */
@@ -118,28 +121,15 @@
     }
 } */
 /* .vertical-menu party */
-.vertical-menu {
-    width: 200px;
-    height: 490px;
-    overflow-y: auto;
-    position: fixed;
-}
-
 .vertical-menu a {
-    background-color: #eee;
-    color: black;
-    display: block;
-    padding: 12px;
     text-decoration: none;
-}
-
-.vertical-menu a:hover {
-    background-color: #ccc;
-}
-
-.vertical-menu a.active {
-    background-color: #04AA6D;
+    font-size: 1.3rem;
     color: white;
+    font-weight: 500;
+
+}
+.vertical-menu{
+    background-color: #7952b3;
 }
 
 /* corps ...........................*/
@@ -206,23 +196,16 @@
 
 /* end media */
 
-.flex-container {
-    position: relative;
-    left: 110px;
-    /* top: 110px; */
-
-    /* padding: 10px; */
-    
-}
 
 .flex-item-left,
 h1 {
     text-align: center;
 
 }
+
 .flex-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     /* grid-template-columns: auto auto auto; */
 
     gap:2rem;
@@ -244,7 +227,7 @@ h1 {
         
         
         /* min-height: 200px; */
-        width: 25vw;
+        /* width: 25vw; */
         /* margin: 100px auto; */
         background: white;
         border-radius: 5px;
@@ -264,21 +247,33 @@ gap: 2rem;
     cursor: pointer;
 
 }
+.image_ronde{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 /* end coprs........................ */
 
 /* footer */
 .footer {
     text-align: center;
-    /* text-align: center;
-    padding: 13px;
-    background-color: DarkSalmon;
-    color: white; */
-        /* margin-bottom: 0px; */
-        background-color: DarkSalmon;
-        /* width: 100%;
-        margin: 5px; */
-        /* width: 900px; */
-        position: relative;
-    left: 110px;
-        
+   
+        background-color: #7952b3;
+  
 }
+.pos{
+    margin-top: -80px;
+}
+.p{
+    /* border: 1px solid beige; */
+    box-shadow: 10px 10px white;
+
+    
+}
+.c{
+    /* margin: 9px; */
+}
+/* ssss */
+/*
+ * Globals
+ */
