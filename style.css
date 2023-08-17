@@ -266,9 +266,9 @@ gap: 2rem;
 }
 .p{
     /* border: 1px solid beige; */
-    box-shadow: 10px 10px white;
+    /* box-shadow: 10px 10px 10px white; */
 
-    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .c{
     /* margin: 9px; */
