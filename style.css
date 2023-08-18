@@ -94,7 +94,7 @@
     font-size: 1.3rem;
     text-decoration: none;
     /* color: white; */
-    color: white;
+    color: rgba(255,255,255,0.85);
 }
 
 /* flex-item left party */
@@ -124,7 +124,7 @@
 .vertical-menu a {
     text-decoration: none;
     font-size: 1.3rem;
-    color: white;
+    color: rgba(255,255,255,0.85);
     font-weight: 500;
 
 }
@@ -269,6 +269,9 @@ gap: 2rem;
     /* box-shadow: 10px 10px 10px white; */
 
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.menu{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .c{
     /* margin: 9px; */

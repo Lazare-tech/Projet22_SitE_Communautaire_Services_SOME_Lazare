@@ -12,11 +12,8 @@ function categorie(){
 }
 
 // disparition de carousel et les card au clic sur post
-let carousel=document.getElementById("carouselExampleCaptions")
-let freelanc_block=document.querySelector(".what_freelance")
-let become_freelance=document.querySelector(".become_freelance")
-let flex_content=document.querySelector(".flex-container")
-let block_regist=document.querySelector(".pos")
+let menu=document.querySelector(".menu")
+window.scrollY
 // function post(){
 //   carousel.style.display="none";
 //   freelanc_block.style.display="none"
